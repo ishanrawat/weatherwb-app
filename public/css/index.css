@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:0 16px;
+
+  }
+  body{
+text-align: center;
+  }
+  body a{
+      text-decoration: none;
+      color:#888888
+      
+
+  }
+ img{
+  width: 10%;
+ }
