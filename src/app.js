@@ -2,6 +2,7 @@ const express=require('express')
 const geocode=require('./utils/geocode')
 const forecast=require('./utils/app')
 const app=express()
+const port=process.env.PORT || 3000
 console.log(__dirname)
 path=require('path')
 hbs=require('hbs')
@@ -70,8 +71,8 @@ app.get('/help/*',(req,res)=>{
 //app.com/about
 
 
-app.listen(3000,()=>{
-    console.log('server is up for port 3000') })
+app.listen(port,()=>{
+    console.log('server is up for port'+port) })
 // app.get('/help',(req,res)=>{
 //     res.send('help page')
 // })
